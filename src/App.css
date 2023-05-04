@@ -1,38 +1,157 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+    background-image: url("https://img.freepik.com/free-photo/restaurant-blur-background_1385-173.jpg?w=1380&t=st=1683129015~exp=1683129615~hmac=83f38cc1198d7d2538c97e7f48923b4a183f96bd42da252a0f6f4d1a4554b61b");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .menu-bar {
+    background-color: #daa1a5;
+    width: 15%;
+    height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .img {
+    margin-top: 30px;
+    width: 70%;
   }
-}
+  
+  .menu-else {
+    background-color: #daa1a5;
+    width: 100%;
+    height: 11vh;
+    position: fixed;
+    margin-top: 0;
+  }
+  .img-else {
+    margin-top: 4px;
+    margin-left: 10px;
+    width: 90px;
+    height: 70px;
+  }
+  
+  .menu-bar-text{
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 150px;
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: larger;
+  }
+  .menu-bar-info{
+    margin-top: 220px;
+    margin-bottom: 10px;
+    font-size: small;
+  }
+  
+
+  .menu-bar-items {
+    color: rgb(246, 244, 244);
+    text-decoration: none;
+    font-size: 35px;
+  }
+  .menu-bar-items-div {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 25px;
+  }
+  .menu-bar-items-div-else {
+    text-align: center;
+    display: inline;
+    margin-left: 30px;
+    font-size: 40px;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 29px;
+  }
+  .img-torte {
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .all-products {
+    margin-top: 70px;
+    margin-right: 110px;
+    margin-left: 110px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card {
+    flex-basis: 400px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50px;
+    text-align: center;
+  }
+  .card-title {
+    font-size: 30px;
+  }
+  .card-body {
+    margin: 20px;
+  }
+  .card-price {
+    font-size: 25px;
+  }
+  .card-text {
+    font-size: 18px;
+    font-style: oblique;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  .btn {
+    border-style: none;
+    background-color: transparent;
+    margin: 20px;
+  }
+  .btn:hover {
+    cursor: pointer;
+  }
+  .cart-items {
+    position: absolute;
+    right: 30px;
+    color: white;
+  }
+  
+  .icon-cart {
+    width: 30px;
+    height: 30px;
+    margin-top: 26px;
+    margin-right: 30px;
+  }
+  .cart-num {
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    top: 8px;
+    right: 6px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
+  .div-order {
+    width: 500px;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .txt-total {
+    text-align: end;
+  }
+  .table-order {
+    text-align: center;
+  }
+  th {
+    padding: 10px;
+  }
+  td {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
