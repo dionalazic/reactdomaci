@@ -20,6 +20,7 @@ function Meni({cartNum, isHome, isShop}) {
         }
       >
         
+        
        <Link
         to = "/prodavnica"
         className="menu-bar-items"
